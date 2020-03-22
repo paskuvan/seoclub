@@ -550,6 +550,38 @@ Hero
 FEATURES SECTIONS
 ============================
 */
+
+.feature-card {
+  -webkit-box-shadow: 0 0 10px rgba(99, 114, 130, 0.1);
+          box-shadow: 0 0 10px rgba(99, 114, 130, 0.1);
+  margin-bottom: 30px;
+  padding: 25px 20px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      font-family: 'Sen', sans-serif;
+}
+
+.feature-card .feature-card__body,
+.feature-card .u-icon {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.feature-card .u-icon {
+  margin-right: 20px;
+}
+
+.feature-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
 .feature-list-wrapper {
   -ms-flex-item-align: center;
       align-self: center;
