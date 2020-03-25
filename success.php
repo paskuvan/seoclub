@@ -28,7 +28,7 @@
 	$header = "MIME-Version: 1.0\r\n";
 	$header .= "Content-type: text/html; charset=UTF-8\r\n";
 	$header .= "From: ". $nombres . " <" . $email_client . ">\r\n";
-	$email='';//Ingresa tu dirección de correo
+	$email='hello@paskuvan.us';//Ingresa tu dirección de correo
 	
 			
 	if (mail($email,$subject,$message,$header)){
