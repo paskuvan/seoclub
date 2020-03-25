@@ -25,6 +25,10 @@ body {
   letter-spacing: -.3px;
 }
 
+.input-group {
+  font-family: 'Sen', sans-serif;
+}
+
 .has-sticky-header {
   padding-top: 72px;
 }
@@ -456,6 +460,7 @@ Hero
       -ms-flex-align: center;
           align-items: center;
   min-height: 550px;
+  font-family: 'Sen', sans-serif;
 }
 
 .hero-content {
