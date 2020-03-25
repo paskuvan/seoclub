@@ -24,7 +24,9 @@ body {
   font-weight: 400;
   letter-spacing: -.3px;
 }
-
+label {
+  margin-bottom: 0 !important;
+}
 .input-group {
   font-family: 'Sen', sans-serif;
 }
